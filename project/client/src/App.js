@@ -1,17 +1,38 @@
-
+import {useState} from "react"
 import './App.css';
+import Sidenav from './components/Sidenav';
+import FeatherIcon from "feather-icons-react";
 
 function App() {
+
+  const [Toggle,setToggle] = useState(false)
+
+
   return (
 
+    <div className="flex">
+      <section>
+        <Sidenav toggleActive = {Toggle}/>
+      </section>
+      <section className="bg-primary ml-0 md:ml-80 w-full h-screen">
+          <div className="bg-white px-4 py-6 flex justify-between items-center">
+                <div className="search-section relative inline-block">
+                <input type="text" className="border-2 rounded-lg focus:outline-none focus:border-gray-100 pl-8 py-1 pr-3" placeholder="Search here"/>
+                <FeatherIcon
+                icon="search"
+                className="absolute search-icon"
+                size="20"
+              />
+                </div>
 
-
-    <div className="bg-gray-900 p-20 h-screen flex justify-center items-center items-start flex-col">
-       <h1 className="text-5xl text-white">Welcome to 🛠️Techgarage 👋</h1>
-       <p className="text-gray-400 mt-5 text-lg">Tech garage is a Platform to access different tools available on the internet</p>
-        <button className="p-4 bg-green-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600">
-          Hello Friends 🚀
-        </button>
+                <div className="block md:hidden" onClick={()=>setToggle(!Toggle)}>
+               {Toggle?<FeatherIcon icon="x" size="24" />:<FeatherIcon icon="menu" size="24" />} 
+                </div>
+          </div>
+          <div>
+             Main section
+          </div>
+      </section>
     </div>
   )
 
