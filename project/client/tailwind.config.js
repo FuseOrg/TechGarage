@@ -12,11 +12,12 @@ module.exports = {
        textColor: theme => theme('colors'),
        textColor: {
          'primary': '#858B8D',
-         'secondary': '#2B2F33'
+         'secondary': '#2B2F33',
+         'buttonColor':'#5F6FBD'
        },
        
        fontFamily: {
-        'sans': ['"Varela Round"', '"sans-serif"']
+        'sans': ['"Roboto"', '"sans-serif"']
         
        }
     },

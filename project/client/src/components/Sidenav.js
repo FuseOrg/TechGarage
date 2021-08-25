@@ -21,7 +21,7 @@ const Sidenav = (props) => {
  
 
   return (
-    <div className={`w-80 absolute bg-white h-full font-sans md:fixed z-50  sidenav ${props.toggleActive?'active':''}`}>
+    <div className={`w-72 absolute bg-white h-full font-sans md:fixed z-50  sidenav ${props.toggleActive?'active':''}`}>
       <div className="sidenav-header p-4 mb-3 flex items-center">
         <img src={logo} alt="logo" className="logo mr-3" />
         <div className="title">
