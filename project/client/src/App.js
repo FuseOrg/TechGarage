@@ -16,10 +16,10 @@ function App() {
         <Sidenav toggleActive={Toggle} />
       </section>
       <section className=" ml-0 md:ml-72 w-full h-screen">
-        <div className="bg-white px-4 py-6 flex justify-between items-center">
+        <div className="bg-white px-3 py-4 flex justify-between items-center ">
           <SearchBar />
 
-          <div className="block md:hidden" onClick={() => setToggle(!Toggle)}>
+          <div className="block md:hidden ml-3 cursor-pointer" onClick={() => setToggle(!Toggle)}>
             {Toggle ? (
               <FeatherIcon icon="x" size="24" />
             ) : (
