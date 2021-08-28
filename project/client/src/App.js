@@ -1,45 +1,58 @@
-import { useState } from "react";
+import Navbar from "./components/Navbar";
+//import FeatherIcon from "feather-icons-react";
+import Leftnav from "./components/Leftnav";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Mainsection from "./components/Mainsection";
 import "./App.css";
-import Sidenav from "./components/Sidenav";
-import SearchBar from "./components/SearchBar";
-import FeatherIcon from "feather-icons-react";
-import ToolList from "./components/ToolList";
-import ToolHeader from "./components/Toolheader";
+import HeaderSection from "./components/HeaderSection";
 
+
+
+const Images = () => {
+  return <h1>Images</h1>;
+};
+
+const Illustartion = () => {
+  return <h1>Illustartions</h1>;
+};
+
+const Icons = () => {
+  return <h1>Icons</h1>;
+};
 
 function App() {
-  const [Toggle, setToggle] = useState(false);
+  
+
 
   return (
-    <div className="flex">
-      <section>
-        <Sidenav toggleActive={Toggle} />
-      </section>
-      <section className=" ml-0 md:ml-72 w-full h-screen">
-        <div className="bg-white px-3 py-4 flex justify-between items-center ">
-          <SearchBar />
+    <Router>
 
-          <div className="block md:hidden ml-3 cursor-pointer" onClick={() => setToggle(!Toggle)}>
-            {Toggle ? (
-              <FeatherIcon icon="x" size="24" />
-            ) : (
-              <FeatherIcon icon="menu" size="24" />
-            )}
-          </div>
-        </div>
-        <div className="px-8 py-8">
-          <p className=" text-xl text-secondary">All Tools</p>
+      <Navbar />
+      <HeaderSection/>
 
-          <div className="tool-container">
+    
+
+      <section className="flex py-3 w-11/12 mx-auto">
+        <Leftnav />
+
+        <Switch>
+          <Route exact path={"/"}>
+
+            <Mainsection/>
             
-            <ToolHeader/>
-
-            <ToolList/>
-           
-          </div>
-        </div>
+          </Route>
+          <Route path={"/Images"}>
+            <Images />
+          </Route>
+          <Route path={"/Illustartions"}>
+            <Illustartion />
+          </Route>
+          <Route path={"/icons"}>
+            <Icons />
+          </Route>
+        </Switch>
       </section>
-    </div>
+    </Router>
   );
 }
 
