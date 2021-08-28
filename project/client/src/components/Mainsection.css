@@ -1,0 +1,6 @@
+.right-nav{
+    flex-basis: 60%;
+    flex-grow: 4;
+    display: block;
+    min-width: 0;
+}

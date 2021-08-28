@@ -6,19 +6,25 @@ module.exports = {
       
       backgroundColor: theme => ({
         ...theme('colors'),
-        'primary': '#efefef',
-        'secondary': '#E5E7E9',
-        'primary-light':'#F3F3F3'
+        'primary':'#5F6FBD',
+        'secondary':'#2B2F33',
+        'secondary-light': '#858B8D',
+        'third-color':'#F3F1F5',
+       
+      
+       
        }),  
        textColor: theme => theme('colors'),
        textColor: {
-         'primary': '#858B8D',
-         'secondary': '#2B2F33',
-         'buttonColor':'#5F6FBD'
+        'primary':'#5F6FBD',
+        'secondary': '#2B2F33',
+        'secondary-light': '#858B8D',
+        'third-color':'#F3F1F5',
+         
        },
        
        fontFamily: {
-        'sans': ['"Roboto"', '"sans-serif"']
+        'sans': ['"Inter"', '"sans-serif"']
         
        }
     },
