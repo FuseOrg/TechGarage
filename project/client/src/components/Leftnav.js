@@ -3,7 +3,7 @@ import categories from '../data/categories.json'
 
 const Leftnav = () => {
   return (
-    <div className="left-nav px-2 hidden md:block">
+    <div className="left-nav px-2 hidden lg:block">
       <span className="nav-title text-lg font-bold text-secondary pl-1 mb-3 block">Categories</span>
       <ul>
         {

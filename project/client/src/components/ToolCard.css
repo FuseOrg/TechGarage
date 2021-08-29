@@ -1,3 +1,9 @@
+.img_container{
+    min-width: 70px;
+    flex-basis: 70px;
+    
+}
+
 .text-limit{
     overflow: hidden;
     text-overflow: ellipsis;
