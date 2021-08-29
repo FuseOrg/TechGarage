@@ -2,8 +2,8 @@ import logo from '../assets/link.png'
 import './HeaderSection.css'
 const HeaderSection = (props) => {
     return (
-      <header className="w-full bg-gray-200 py-4 mt-14">
-         <div className="header_container flex flex-col justify-center items-center w-11/12 mx-auto">
+      <header className="w-full bg-secondary py-4 mt-14">
+         <div className="header_container flex flex-col justify-center items-center w-11/12 mx-auto text-white">
              <div className="image_conatiner">
                  <img src={logo} alt="logo"/>
              </div>

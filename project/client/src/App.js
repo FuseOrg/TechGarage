@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Mainsection from "./components/Mainsection";
 import "./App.css";
 import HeaderSection from "./components/HeaderSection";
+import Footer from "./components/Footer"
 
 
 
@@ -52,6 +53,7 @@ function App() {
           </Route>
         </Switch>
       </section>
+      <Footer/>
     </Router>
   );
 }
