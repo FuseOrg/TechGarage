@@ -1,0 +1,19 @@
+.left-nav{
+    min-width: 200px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+
+.hover_list {
+    padding: 0.25rem 0.5rem;
+   
+}
+
+.hover_list:hover{
+ 
+  border-radius: 8px;
+  transition: 0.5s all ease-in;
+ 
+}
+

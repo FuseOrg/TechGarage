@@ -1,41 +1,59 @@
-import {useState} from "react"
-import './App.css';
-import Sidenav from './components/Sidenav';
-import FeatherIcon from "feather-icons-react";
+import Navbar from "./components/Navbar";
+//import FeatherIcon from "feather-icons-react";
+import Leftnav from "./components/Leftnav";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Mainsection from "./components/Mainsection";
+import "./App.css";
+import HeaderSection from "./components/HeaderSection";
+
+
+
+const Images = () => {
+  return <h1>Images</h1>;
+};
+
+const Illustartion = () => {
+  return <h1>Illustartions</h1>;
+};
+
+const Icons = () => {
+  return <h1>Icons</h1>;
+};
 
 function App() {
-
-  const [Toggle,setToggle] = useState(false)
+  
 
 
   return (
+    <Router>
 
-    <div className="flex">
-      <section>
-        <Sidenav toggleActive = {Toggle}/>
+      <Navbar />
+      <HeaderSection/>
+
+    
+
+      <section className="flex py-3 w-11/12 mx-auto">
+        <Leftnav />
+
+        <Switch>
+          <Route exact path={"/"}>
+
+            <Mainsection/>
+            
+          </Route>
+          <Route path={"/Images"}>
+            <Images />
+          </Route>
+          <Route path={"/Illustartions"}>
+            <Illustartion />
+          </Route>
+          <Route path={"/icons"}>
+            <Icons />
+          </Route>
+        </Switch>
       </section>
-      <section className="bg-primary ml-0 md:ml-80 w-full h-screen">
-          <div className="bg-white px-4 py-6 flex justify-between items-center">
-                <div className="search-section relative inline-block">
-                <input type="text" className="border-2 rounded-lg focus:outline-none focus:border-gray-100 pl-8 py-1 pr-3" placeholder="Search here"/>
-                <FeatherIcon
-                icon="search"
-                className="absolute search-icon"
-                size="20"
-              />
-                </div>
-
-                <div className="block md:hidden" onClick={()=>setToggle(!Toggle)}>
-               {Toggle?<FeatherIcon icon="x" size="24" />:<FeatherIcon icon="menu" size="24" />} 
-                </div>
-          </div>
-          <div>
-             Main section
-          </div>
-      </section>
-    </div>
-  )
-
+    </Router>
+  );
 }
 
 export default App;

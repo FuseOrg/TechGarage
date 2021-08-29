@@ -6,17 +6,25 @@ module.exports = {
       
       backgroundColor: theme => ({
         ...theme('colors'),
-        'primary': '#efefef',
-        'secondary': '#E5E7E9'
+        'primary':'#5F6FBD',
+        'secondary':'#2B2F33',
+        'secondary-light': '#858B8D',
+        'third-color':'#F3F1F5',
+       
+      
+       
        }),  
        textColor: theme => theme('colors'),
        textColor: {
-         'primary': '#858B8D',
-         'secondary': '#2B2F33'
+        'primary':'#5F6FBD',
+        'secondary': '#2B2F33',
+        'secondary-light': '#858B8D',
+        'third-color':'#F3F1F5',
+         
        },
        
        fontFamily: {
-        'sans': ['"Varela Round"', '"sans-serif"']
+        'sans': ['"Inter"', '"sans-serif"']
         
        }
     },
