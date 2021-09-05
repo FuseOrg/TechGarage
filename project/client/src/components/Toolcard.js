@@ -17,7 +17,9 @@ const ToolCard = (props) => {
         <p className="text-sm text-secondary mb-2 text-limit">{item.desc}</p>
         <div className="w-full flex justify-end  pr-2">
         <button className="text-primary text-sm font-semibold  hover:text-indigo-300">
-          View
+         
+          <a href={item.link} rel="noreferrer" target="_blank">View</a>
+         
         </button>
         </div>
        
