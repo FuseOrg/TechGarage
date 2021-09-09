@@ -1,7 +1,7 @@
 import "./ToolCard.css";
 
-const ToolCard = (props) => {
-  return props.data.map((item, index) => (
+const ToolCard = ({data}) => {
+  return data.map((item, index) => (
     <div
       className="bg-white flex  flex-row  px-3 py-3 rounded-xl shadow-lg"
       key={index}
