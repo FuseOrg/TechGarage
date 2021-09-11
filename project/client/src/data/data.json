@@ -11,24 +11,36 @@
             {"Category":"Image","title":"Negativespace","logo":"../Images/Images/negativespace.png","desc":" Beautiful, High-Resolution Free Stock Photos For personal or commercial use","link":"https://negativespace.co/"},
             {"Category":"Image","title":"Burdt","logo":"../Images/Images/burst.png","desc":"A fast tool for Productivity tools and collabration","link":"https://burst.shopify.com/"},
             {"Category":"Image","title":"kaboompics","logo":"../Images/Images/kaboompics.png","desc":"A fast tool for Productivity tools and collabration","link":"https://kaboompics.com/"},
+            {"Category":"Image","title":"Vecteezy","logo":"../Images/Images/kaboompics.png","desc":"Download Free Vector Art, Stock Photos & Stock Videos.Professional quality creative resources to get your projects done faster.","link":"https://www.vecteezy.com/"},
             
-
+            
           
-            {"Category":"Icons","title":"Illu1","logo":"../Images/tool.jpg","desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Icons","title":"Illu2","logo":"../Images/tool.jpg","desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Icons","title":"Illu2","logo":"../Images/tool.jpg","desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Icons","title":"Illu2","logo":"../Images/tool.jpg","desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
+           
 
-            {"Category":"Illustrations","title":"Illu1","logo":"../Images/Illustrations/tool_2.png","desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"},
-            {"Category":"Illustrations","title":"Illu2","logo":"../Images/Illustrations/tool_2.png","desc":"StLorem Ipsum is simply dummy text of the printing and typesetting industry.xsssdsdsddsdsdsdsddsd fgf gbgh fgfg","link":"https://unsplash.com/"}
+            {"Category":"Illustrations","title":"Freepik","logo":"../Images/Illustrations/freepik.png","desc":"Millions of Free Graphic Resources. All that you need for your Creative Projects","link":"https://www.freepik.com/"},
+            {"Category":"Illustrations","title":"Undraw","logo":"../Images/Illustrations/undraw.png","desc":"Open-source illustrations for any idea you can imagine and create.","link":"https://undraw.co"},
+            {"Category":"Illustrations","title":"Blush","logo":"../Images/Illustrations/blush.png","desc":"Easily create and customize stunning illustrations with collections made by artists across the globe. ","link":"https://blush.design/"},
+            {"Category":"Illustrations","title":"Open Doodles","logo":"../Images/Illustrations/opendoodles.png","desc":"Open Doodles is a set of free illustrations that embraces the idea of Open Design.","link":"https://www.opendoodles.com/"},
+            {"Category":"Illustrations","title":"Isometriclove","logo":"../Images/Illustrations/isometric.png","desc":"Cute Isometric Objects For Your Design","link":"https://www.isometriclove.com/"},
+            {"Category":"Illustrations","title":"StoryTale","logo":"../Images/Illustrations/storytale.png","desc":"High-class illustrations for web and mobile projects","link":"https://storytale.io/browse"},
+            {"Category":"Illustrations","title":"Getillustrations","logo":"../Images/Illustrations/getillustartions.png","desc":"Build a library of onboarding illustrations for your next project.","link":"https://www.getillustrations.com/illustration-packs/freebie"},
+            {"Category":"Illustrations","title":"SketchValley","logo":"../Images/Illustrations/sketchvalley.png","desc":"Hand-drawn free vector illustration resources for your projects.","link":"https://sketchvalley.com/"},
+            {"Category":"Illustrations","title":"Handz","logo":"../Images/Illustrations/handz.png","desc":"A 3D illustration library for Hand designs.","link":"https://www.handz.design/"},
+
+            {"Category":"Icons","title":"Flaticon","logo":"../Images/icons/flaticons.png","desc":"Download free vector icons and stickers for your projects. Resources made by and for designers.","link":"https://www.flaticon.com/"},
+            {"Category":"Icons","title":"Material Icon","logo":"../Images/icons/material_icons.png","desc":"Material Icons are available in five styles and a range of downloadable sizes and densities.","link":"https://fonts.google.com/icons?selected=Material+Icons"},
+            {"Category":"Icons","title":"Fontawsome","logo":"../Images/icons/fontawsome.png","desc":"Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.","link":"https://fontawesome.com/v5.15/icons"},
+            {"Category":"Icons","title":"Icon8","logo":"../Images/icons/icon8.png","desc":"Professional icons by the rockstar team to beautify your work.Multiple formats, customization, and diverse styles.","link":"https://icons8.com/icons"},
+            {"Category":"Icons","title":"Thenounproject","logo":"../Images/icons/thenounproject.png","desc":"Icons for Everything. Over 3 million art-quality free icons to make any idea more memorable. ","link":"https://thenounproject.com/icons/"},
+            {"Category":"Icons","title":"Remixicon","logo":"../Images/icons/remixicon.png","desc":"Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers.","link":"https://remixicon.com/"},
+            {"Category":"Icons","title":"Iconset","logo":"../Images/icons/iconset.png","desc":"Free selected SVG icons, icon sets and icon packs for web, mobile & print projects for commercial use.","link":"https://iconset.io/icons"},
+            {"Category":"Icons","title":"Css.gg","logo":"../Images/icons/css.png","desc":"Open-source CSS, SVG and Figma UI Icons Available in SVG Sprite, styled-components, NPM & API","link":"https://css.gg/app"},
+            {"Category":"Icons","title":"Heroicons","logo":"../Images/icons/heroicons.png","desc":"Beautiful hand-crafted SVG icons,by the makers of Tailwind CSS.","link":"https://heroicons.com/"},
+            {"Category":"Icons","title":"Feathericons","logo":"../Images/icons/feathericons.png","desc":"Feather is a collection of simply beautiful open source icons.","link":"https://feathericons.com/"},
+            {"Category":"Icons","title":"Akveo","logo":"../Images/icons/eva.png","desc":"Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.","link":"https://akveo.github.io/eva-icons/"},
+            {"Category":"Icons","title":"Tilda","logo":"../Images/icons/tildaicons.png","desc":"Free icons for Landing Pages.Icons are free to use both for personal and commercial projects","link":"https://tilda.cc/free-icons/"}
      
-        
+            
       
     
 ]
