@@ -1,5 +1,5 @@
 import Data from "../data/data.json";
-import ToolCard from "../components/Toolcard";
+import Tool from "../components/Tool";
 const Illustrations = () => {
 
     
@@ -17,7 +17,7 @@ const Illustrations = () => {
 
       <div className="tool-container">
       <div className="tools-list grid  gap-4 grid-cols-none md:grid-cols-2 xl:grid-cols-3">
-        <ToolCard data={arr1} />
+        <Tool data={arr1} />
         </div>
       </div>
     </div>

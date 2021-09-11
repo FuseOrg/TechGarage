@@ -14,7 +14,7 @@ const Mainsection = () => {
 
   return (
     <div className="right-side ">
-      <p className=" text-xl text-secondary font-semibold">All Tools</p>
+      {/* <p className=" text-xl text-secondary font-semibold">All Tools</p> */}
       <div className="tool-container">
         <ToolList title="Images" link="/Images" data={arr1} />
         <ToolList title="Illustrations" link="/Illustrations" data={arr2} />
