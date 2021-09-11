@@ -3,15 +3,15 @@ import "./ToolCard.css";
 const Tool = ({data}) => {
   return data.map((item, index) => (
     <a href={item.link} rel="noreferrer" target="_blank"
-      className="bg-white flex  flex-col   rounded-xl  cursor-pointer hover:shadow-xl transition-shadow duration-200 ease-in-out border border-gray-200"
+      className="bg-white flex  flex-col   rounded-md  cursor-pointer hover:shadow-xl transition-shadow duration-200 ease-in-out border border-gray-200"
       key={index}
     >
       <div className="img_container  flex items-center justify-center">
-        <img src={item.logo} alt="logo" className="rounded-xl" />
+        <img src={item.logo} alt="logo" className="rounded-tl-md rounded-tr-md" />
       </div>
 
-      <div className="tool-details flex flex-col w-full py-3 px-3  text-center">
-        <p className="mb-2 text-lg text-secondary font-medium ">
+      <div className="tool-details flex flex-col w-full py-3 px-3  text-left pb-5">
+        <p className="mb-1 text-lg text-secondary font-medium ">
           {item.title}
         </p>
         <p className="text-base text-secondary mb-2 font-medium opacity-60">{item.desc}</p>
