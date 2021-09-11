@@ -31,7 +31,11 @@ const SearchBar = () => {
       </div>
       </div>
       
-
+       <div className={`fixed bg-white left-0 inset-y-0 max-h-screen w-72  z-50 transition  duration-200 ease-in-out md:hidden transform togglenav ${Toggle? '-translate-x-0' : ' -translate-x-full'}`}>
+         <div className="toggle-nav-header text-center p-6">
+            Techgarage
+         </div>
+       </div>
      
     </div>
   );
