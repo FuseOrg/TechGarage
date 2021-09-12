@@ -2,7 +2,7 @@
 import './HeaderSection.css'
 const HeaderSection = (props) => {
     return (
-      <header className="w-full bg-secondary py-4 lg:py-20 mt-14">
+      <header className="w-full bg-secondary py-6 lg:py-20 mt-16">
          <div className="header_container flex flex-col justify-center items-center sm:w-11/12 mx-auto ">
              {/* <div className="image_conatiner">
                  <img src={logo} alt="logo"/>
