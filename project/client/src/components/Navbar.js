@@ -50,7 +50,7 @@ const SearchBar = () => {
             <li key={index} className="nav-link">
               <a
                 href={item.link}
-                className="block px-2 py-2 text-base font-semibold text-gray-500 transition duration-300 ease-in-out hover:text-gray-900"
+                className="block px-2 py-2 text-base font-medium text-gray-500 transition duration-300 ease-in-out hover:text-gray-900"
               >
                 {item.category}
               </a>
