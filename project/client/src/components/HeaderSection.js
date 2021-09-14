@@ -5,22 +5,21 @@ import Data from "../data/data.json";
 
 const HeaderSection = () => {
   const [filterQuery, setfilterQuery] = useState([]);
-  const [searchValue,setsearchValue] = useState([]);
+  const [searchValue, setsearchValue] = useState([]);
 
   const searchFilter = (event) => {
     const searchQuery = event.target.value;
     setsearchValue(searchQuery);
-    if(searchQuery.length>0){
+    if (searchQuery.length > 0) {
       const filterData = Data.filter((item) => {
-        return item.title.toLowerCase().includes(searchQuery.toLowerCase()) || item.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||  item.Category.toLowerCase().includes(searchQuery.toLowerCase());
-    
+        return (
+          item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          item.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          item.Category.toLowerCase().includes(searchQuery.toLowerCase())
+        );
       });
       setfilterQuery(filterData);
-     
     }
-   
-   
-  
   };
 
   return (
@@ -52,7 +51,7 @@ const HeaderSection = () => {
             {filterQuery.length > 0 && searchValue.length > 0 && (
               <div className="searchResult bg-white rounded-lg absolute w-full h-48 overflow-x-hidden overflow-y-auto">
                 <ul className="text-left py-2">
-                  {filterQuery.map((item,index) => {
+                  {filterQuery.map((item, index) => {
                     return (
                       <li key={index}>
                         <a
