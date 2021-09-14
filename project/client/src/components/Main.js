@@ -5,7 +5,12 @@ import Images from "../Pages/Images";
 import Illustrations from "../Pages/Illustrations";
 import Icons from "../Pages/Icons";
 
+
 const Main = () => {
+
+  
+
+
   return (
     <section className="flex py-8 w-11/12 mx-auto">
       <Leftnav />
