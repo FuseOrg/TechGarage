@@ -7,7 +7,7 @@ const ToolList = (props) => {
   return (
     <>
       <Toolheader title={title} link={link}/>
-      <div className="tools-list grid gap-16  md:gap-10 lg:gap-8 grid-cols-none md:grid-cols-2 xl:grid-cols-3 mb-10 lg:mb-16">
+      <div className="tools-list grid  gap-4 grid-cols-none md:grid-cols-2 xl:grid-cols-3 mb-10 lg:mb-16">
         <Tool data={data}/>
       </div>
     </>
