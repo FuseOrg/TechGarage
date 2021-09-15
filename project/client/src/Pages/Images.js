@@ -9,7 +9,7 @@ const Images = () => {
           });
         };
       
-        const arr1 = filterItem(Data, "Image");
+        const arr1 = filterItem(Data, "Images");
 
     return (
         <div className="right-side ">

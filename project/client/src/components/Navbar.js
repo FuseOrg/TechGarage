@@ -14,7 +14,7 @@ const SearchBar = () => {
           className="sidenav-header flex items-center w-80 cursor-pointer inline-flex"
         >
           <img src={logo} alt="logo" className="logo mr-3" />
-          <div className="title text-lg font-medium">Tech Garage</div>
+          <div className="title text-lg font-medium text-gray-900">TechGarage</div>
         </a>
         {/* <div className="search-section relative inline-block">
         <input
@@ -43,7 +43,7 @@ const SearchBar = () => {
       >
         <div className="toggle-nav-header text-center p-6 flex items-center">
           <img src={logo} alt="logo" className="logo mr-3" />
-             <span className="title text-lg font-medium">Techgarage</span>
+             <span className="title text-lg font-medium text-gray-900">Techgarage</span>
           </div>
         <ul className="my-2 px-4">
           {categories.map((item, index) => (

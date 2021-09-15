@@ -8,7 +8,7 @@ const Mainsection = () => {
     });
   };
 
-  const arr1 = filterItem(Data, "Image").slice(0, 6);
+  const arr1 = filterItem(Data, "Images").slice(0, 6);
   const arr2 = filterItem(Data, "Illustrations").slice(0, 6);
   const arr3 = filterItem(Data, "Icons").slice(0, 6);
 
