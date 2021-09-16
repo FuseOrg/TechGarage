@@ -44,7 +44,7 @@ const HeaderSection = () => {
               <input
                 type="text"
                 placeholder="Search"
-                className="p-2 lg:p-4 rounded-lg text-sm mb-1  w-full"
+                className="p-3 lg:p-4 rounded-lg text-sm mb-1  w-full"
                 onChange={searchFilter}
               />
             </div>
