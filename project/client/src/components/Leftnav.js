@@ -9,7 +9,7 @@ const Leftnav = () => {
         {
             categories.map((item,index)=>(
                 
-                <li key={index} className="my-1 "><a className="text-base font-normal hover_list text-secondary-light hover:text-secondary hover:bg-third-color pointer block" href={item.link}>{item.category}</a></li>
+                <li key={index} className="my-1 "><a className="text-base font-medium hover_list text-purple-500 hover:bg-purple-200 pointer block" href={item.link}>{item.category}</a></li>
             ))
         }
         
