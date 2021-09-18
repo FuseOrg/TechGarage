@@ -2,6 +2,7 @@
     
 
        
+          
 
             {"Category":"Images","title":"Unsplash","logo":"../Images/Images/unsplash.png","desc":"Beautiful, free images and photos that you can download and use for any project.","link":"https://unsplash.com/"},
             {"Category":"Images","title":"Pexels","logo":"../Images/Images/pexels.png","desc":"The best free stock photos & videos shared by talented creators","link":"https://www.pexels.com/"},
@@ -14,8 +15,6 @@
             {"Category":"Images","title":"Vecteezy","logo":"../Images/Images/kaboompics.png","desc":"Download Free Vector Art, Stock Photos & Stock Videos.Professional quality creative resources to get your projects done faster.","link":"https://www.vecteezy.com/"},
             
             
-          
-           
 
             {"Category":"Illustrations","title":"Freepik","logo":"../Images/Illustrations/freepik.png","desc":"Millions of Free Graphic Resources. All that you need for your Creative Projects","link":"https://www.freepik.com/"},
             {"Category":"Illustrations","title":"Undraw","logo":"../Images/Illustrations/undraw.png","desc":"Open-source illustrations for any idea you can imagine and create.","link":"https://undraw.co"},
@@ -38,7 +37,17 @@
             {"Category":"Icons","title":"Heroicons","logo":"../Images/icons/heroicons.png","desc":"Beautiful hand-crafted SVG icons,by the makers of Tailwind CSS.","link":"https://heroicons.com/"},
             {"Category":"Icons","title":"Feathericons","logo":"../Images/icons/feathericons.png","desc":"Feather is a collection of simply beautiful open source icons.","link":"https://feathericons.com/"},
             {"Category":"Icons","title":"Akveo","logo":"../Images/icons/eva.png","desc":"Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.","link":"https://akveo.github.io/eva-icons/"},
-            {"Category":"Icons","title":"Tilda","logo":"../Images/icons/tildaicons.png","desc":"Free icons for Landing Pages.Icons are free to use both for personal and commercial projects","link":"https://tilda.cc/free-icons/"}
+            {"Category":"Icons","title":"Tilda","logo":"../Images/icons/tildaicons.png","desc":"Free icons for Landing Pages.Icons are free to use both for personal and commercial projects","link":"https://tilda.cc/free-icons/"},
+
+
+            {"Category":"webhosting","title":"Github Pages","logo":"../Images/web-hosting/github.png","desc":"Hosted directly from your GitHub repository. Just edit, push, and your changes are live.","link":"https://pages.github.com"},
+            {"Category":"webhosting","title":"Netlify","logo":"../Images/web-hosting/netlify.png","desc":"An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps,webistes","link":"https://www.netlify.com"},
+            {"Category":"webhosting","title":"Heroku","logo":"../Images/web-hosting/heroku.png","desc":"Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud","link":"https://www.heroku.com"},
+            {"Category":"webhosting","title":"Vercel","logo":"../Images/web-hosting/vercel.png","desc":"Vercel is the best place to deploy any frontend app. Start by deploying with zero configuration to our global edge network","link":"https://vercel.com/"},
+            {"Category":"webhosting","title":"Firebase","logo":"../Images/web-hosting/firebase.jpg","desc":"With Firebase Hosting, you can deploy a single-page web app, a mobile app landing page, or a progressive web app without all the hassle.","link":"https://firebase.google.com/products/hosting"},
+            {"Category":"webhosting","title":"AWS","logo":"../Images/web-hosting/aws.png","desc":"AWS offers cloud web hosting solutions helps with low-cost ways to deliver their websites and web applications. ","link":"https://aws.amazon.com/free/"}
+            
+           
      
             
       

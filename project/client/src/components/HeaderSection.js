@@ -14,9 +14,9 @@ const HeaderSection = () => {
     if (searchQuery.length > 0) {
       const filterData = Data.filter((item) => {
         return (
-          item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          item.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          item.Category.toLowerCase().includes(searchQuery.toLowerCase())
+          item.title.toLowerCase().includes(searchQuery.toLowerCase()) 
+          
+         
         );
       });
       setfilterQuery(filterData);
