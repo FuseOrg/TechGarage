@@ -14,7 +14,7 @@ const Tool = ({data}) => {
         <p className="mb-1 text-lg text-secondary font-medium ">
           {item.title}
         </p>
-        <p className="text-base text-secondary mb-2 font-medium opacity-60">{item.desc}</p>
+        <p className="text-base text-gray-900 mb-2 font-base opacity-60">{item.desc}</p>
         {/* <div className="w-full flex justify-end  pr-2">
         <button className="text-primary text-sm font-semibold  hover:text-indigo-300">
          

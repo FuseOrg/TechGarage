@@ -4,6 +4,7 @@ import Mainsection from "../components/Mainsection";
 import Images from "../Pages/Images";
 import Illustrations from "../Pages/Illustrations";
 import Icons from "../Pages/Icons";
+import Webhosting from "../Pages/Webhosting";
 
 const Main = () => {
   return (
@@ -21,6 +22,9 @@ const Main = () => {
         </Route>
         <Route path={"/Icons"}>
           <Icons />
+        </Route>
+        <Route path={"/webhosting"}>
+          <Webhosting />
         </Route>
       </Switch>
     </section>
