@@ -13,10 +13,10 @@ const Illustrations = () => {
 
     return (
       <div className="right-side ">
-      <p className="text-2xl lg:text-3xl text-secondary font-semibold mb-5">Illustartions</p>
+      <p className="text-2xl lg:text-3xl text-secondary font-semibold mb-8">Illustartions</p>
 
       <div className="tool-container">
-      <div className="tools-list grid  gap-4 grid-cols-none md:grid-cols-2 xl:grid-cols-3">
+      <div className="tools-list grid gap-16 lg:gap-8 grid-cols-none md:grid-cols-2 xl:grid-cols-3 mb-10 lg:mb-16">
         <Tool data={arr1} />
         </div>
       </div>
