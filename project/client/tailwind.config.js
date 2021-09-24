@@ -10,13 +10,15 @@ module.exports = {
         'secondary':'#2B2F33',
         'secondary-light': '#858B8D',
         'third-color':'#F3F1F5',
+        'bg-1':'#f8f9fe',
+        
        
       
        
        }),  
        textColor: theme => theme('colors'),
        textColor: {
-        'primary':'#5F6FBD',
+        'primary':'#8d6efa',
         'secondary': '#2B2F33',
         'secondary-light': '#858B8D',
         'third-color':'#F3F1F5',

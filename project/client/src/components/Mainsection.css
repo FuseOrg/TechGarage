@@ -1,5 +1,5 @@
-.right-nav{
-    flex-basis: 60%;
+.right-side{
+    flex-basis: 80%;
     flex-grow: 4;
     display: block;
     min-width: 0;

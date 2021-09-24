@@ -1,7 +1,10 @@
 [
+
     {"category":"Image","link":"/Images"},
-    {"category":"Illustartions","link":"/Images"},
-    {"category":"Icons","link":"/Images"},
-    {"category":"Videos","link":"/Images"}
+    {"category":"Illustrations","link":"/Illustrations"},
+    {"category":"Icons","link":"/icons"},
+    {"category":"Web Hosting","link":"/webhosting"}
+    
+    
 
 ]
