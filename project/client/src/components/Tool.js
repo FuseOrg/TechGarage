@@ -6,7 +6,7 @@ const Tool = ({data}) => {
       className="bg-white flex  flex-col   rounded-md  cursor-pointer hover:shadow-xl transition-shadow duration-200 ease-in-out border border-gray-200"
       key={index}
     >
-      <div className="img_container  flex items-center justify-center">
+      <div className="img_container  flex items-center justify-center p-3">
         <img src={item.logo} alt="logo" className="rounded-tl-md rounded-tr-md" />
       </div>
 

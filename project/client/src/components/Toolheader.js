@@ -2,7 +2,7 @@
 const Toolheader = (props) => {
  const {title,link} = props
   return (
-    <div className="tool-header flex justify-between  mb-8">
+    <div className="tool-header flex justify-between  mb-4">
       <p className="tool-title text-2xl text-secondary font-semibold ">
         {title}
       </p>
