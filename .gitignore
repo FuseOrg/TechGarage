@@ -22,3 +22,5 @@
 /project/client/npm-debug.log*
 /project/client/yarn-debug.log*
 /project/client/yarn-error.log*
+
+.env
