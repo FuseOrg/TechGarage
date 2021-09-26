@@ -14,7 +14,7 @@ const SearchBar = () => {
           className="sidenav-header flex items-center w-80 cursor-pointer inline-flex"
         >
           <img src={logo} alt="logo" className="logo mr-3" />
-          <div className="title text-lg font-medium text-gray-900">TechGarage</div>
+          <div className="title text-lg font-medium text-gray-900">Free Garage</div>
         </a>
         {/* <div className="search-section relative inline-block">
         <input

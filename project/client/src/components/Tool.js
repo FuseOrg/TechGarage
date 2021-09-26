@@ -3,7 +3,7 @@ import "./ToolCard.css";
 const Tool = ({data}) => {
   return data.map((item, index) => (
     <a href={item.link} rel="noreferrer" target="_blank"
-      className="bg-white flex  flex-col   rounded-md  cursor-pointer hover:shadow-xl transition-shadow duration-200 ease-in-out border border-gray-200"
+      className="bg-white flex  flex-col   rounded-md  cursor-pointer shadow-one   transform duration-700 ease-in-out  hover:scale-105"
       key={index}
     >
       <div className="img_container  flex items-center justify-center p-3">
